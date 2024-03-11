@@ -1,0 +1,30 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Bridge Name</th>
+      <th>Location</th>
+      <th>Type</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each bridgelist.bridges}}
+      <tr>
+        <td>
+          {{bridgename}}
+        </td>
+        <td>
+          {{location}}
+        </td>
+        <td>
+          {{bridgetype}}
+        </td>
+        <td>
+            <a href="/bridgelist/{{../bridgelist._id}}/deletebridge/{{_id}}" class="ui icon button">
+            <i class="fas fa-trash"></i>
+          </a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+  </table>

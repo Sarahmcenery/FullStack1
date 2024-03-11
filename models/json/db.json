@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "752c0fd5-a12f-45f9-9959-e32037d3ef69"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "_id": "fdfbe6f0-d4dc-4554-a968-2b97c5834ee6"
+    },
+    {
+      "firstName": "Bart",
+      "lastName": "Simpson",
+      "email": "bart@simpson.com",
+      "password": "secret",
+      "_id": "493f6307-adbb-48a5-80e7-2386a8f4d73d"
+    }
+  ],
+  "bridgelists": [
+    {
+      "bridgename": "Parnell Bridge",
+      "_id": "d8f91d3b-9ccd-40b8-ba23-1509b496edcf"
+    },
+    {
+      "bridgename": "Millenium Bridge",
+      "_id": "2fc0435d-36ec-4e08-8a4b-034207e22616"
+    },
+    {
+      "bridgename": "Peace Bridge",
+      "_id": "cd53fada-77f0-46cd-865e-19c934d0c1c4"
+    }
+  ],
+  "bridges": [
+    {
+      "bridgename": "Liberty Bridge",
+      "location": "Cork",
+      "bridgetype": "Suspension",
+      "_id": "26f0ee7f-8087-4af4-b0d8-d341c89ffd83",
+      "bridgelistid": "3e144881-4848-4947-bd4c-759f810a9164"
+    },
+    {
+      "bridgename": "",
+      "location": "",
+      "bridgetype": "",
+      "_id": "01a144c9-b036-439b-8ff3-a6e6484b58f5",
+      "bridgelistid": "3e144881-4848-4947-bd4c-759f810a9164"
+    },
+    {
+      "bridgename": "Halpenny Bridge",
+      "location": "Dublin",
+      "bridgetype": "Arch",
+      "_id": "a7e1076a-ceae-4626-8326-dd0f36fdbab7",
+      "bridgelistid": "3e144881-4848-4947-bd4c-759f810a9164"
+    },
+    {
+      "bridgename": "Halpenny Bridge",
+      "location": "Dublin",
+      "bridgetype": "Arch",
+      "_id": "0c67fa80-14b3-407d-9f98-6fc205b48a85",
+      "bridgelistid": "f9becad6-e938-4ad8-9ed4-d80ed4ee1440"
+    },
+    {
+      "bridgename": "Liberty Bridge",
+      "location": "Cork",
+      "bridgetype": "Arch",
+      "_id": "acaed953-61f9-41e2-83e6-c04a4d4f17ee",
+      "bridgelistid": "563279d2-5ca1-4bf6-8d43-abaee380e441"
+    },
+    {
+      "bridgename": "Halpenny Bridge",
+      "location": "",
+      "bridgetype": "",
+      "_id": "ab40dbf4-a526-4f0c-8335-fe456edc682e",
+      "bridgelistid": "563279d2-5ca1-4bf6-8d43-abaee380e441"
+    },
+    {
+      "bridgename": "Nano Nagle Bridge",
+      "location": "Cork",
+      "bridgetype": "New",
+      "_id": "273787c6-1a24-49f8-a420-10a43a6c5e7b",
+      "bridgelistid": "2653867e-0cbb-42f1-948a-286d677bba72"
+    }
+  ]
+}
